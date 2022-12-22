@@ -11,6 +11,7 @@
 The save command will end the program if it is run through System.in or a script (i.e. those methods can only edit one image). To end the program used through the GUI application, you must close the application window (you can edit multiple images without restarting the program)
 
 Application UI
+<img width="1440" alt="Screen Shot 2022-12-22 at 2 49 06 PM" src="https://user-images.githubusercontent.com/94412143/209214956-81f5feac-ae8d-4cf6-a599-79bec6bc91a4.png">
 
 ### Histogram
 
