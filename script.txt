@@ -1,0 +1,16 @@
+load res/image.jpg image
+red-component image imagered
+green-component imagered imagegreen
+blue-component imagegreen imageblue
+value imageblue imagevalue
+intensity imagevalue imageintensity
+luma imageintensity imageluma
+horizontal-flip imageluma imagehflip
+vertical-flip imagehflip imagevflip
+brighten imagevflip imagebrightened 50
+brighten imagebrightened imagedarkened -75
+blur imagedarkened imageblur 3
+sharpen imageblur imagesharp
+greyscale imagesharp imagegreyscale
+sepia imagegreyscale imagesepia
+save res/image-all-edits.png imagesepia
