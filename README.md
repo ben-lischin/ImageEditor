@@ -19,7 +19,7 @@ Visual representation of the red, green, blue, and intensity components of the c
 ## Input guidelines (for script or System.in)
 ### Loading an image
 #### load: "load (filename to load from, containing filetype) (name to store as)\n"
-ex: load res/image.ppm image
+ex: load res/image.png image
 ### Edit commands
 #### red-component: "red-component (stored name of image to edit) (name to store edited image as)\n"
 ex: red-component image imagered
